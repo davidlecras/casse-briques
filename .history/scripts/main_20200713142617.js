@@ -1,10 +1,8 @@
 const ball = [];
-let gameRefresh;
 $(document).ready(init);
 
 function init() {
   addBall();
-  gameRefresh = setInterval(drawBall, 10);
 }
 function addBall() {
   let idBall = createId();

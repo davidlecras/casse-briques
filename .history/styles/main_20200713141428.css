@@ -20,6 +20,9 @@ body {
   box-shadow: 2px 4px 4px black;
   z-index: 0;
   cursor: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ball {
@@ -27,7 +30,5 @@ body {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background: #ff0000;
-  box-shadow: 1px 2px 2px gray;
-  pointer-events: none;
+  background-color: #ff0000;
 }

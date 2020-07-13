@@ -1,5 +1,5 @@
 const ball = [];
-let gameRefresh;
+var gameRefresh;
 $(document).ready(init);
 
 function init() {
